@@ -58,7 +58,7 @@ app
             'message': "こんにちは"
         });
     },(reqTimeStamp - nowTime));
-});
+}).listen(process.env.PORT);
 
 
 let timetime = new Date();
@@ -80,6 +80,6 @@ app.listen(3000, () => {
 });
 */
 
-
+/*
 app.listen(process.env.PORT)
- 
+*/
