@@ -1,0 +1,44 @@
+{
+  "name": "hello_react",
+  "version": "1.0.0",
+  "description": "hello react",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server",
+    "webpack": "webpack -d",
+    "start": "node socketServer01.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "date-utils": "^1.2.21",
+    "holderjs": "^2.9.6",
+    "jquery": "^3.4.1",
+    "node-notifier": "^6.0.0",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.8.6",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "nodemon": "^1.19.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
