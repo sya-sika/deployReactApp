@@ -74,6 +74,12 @@ const http = require('http').createServer((req, res) => {
 });
 */
 
+/*
 app.listen(3000, () => {
     console.log('routing...');
 });
+*/
+
+
+app.listen(process.env.PORT)
+ 
